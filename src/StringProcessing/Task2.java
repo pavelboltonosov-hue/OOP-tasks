@@ -33,8 +33,8 @@ public class Task2 {
         System.out.println(third);
 
         first.replace(first.indexOf("="),first.indexOf("=")+1 , "равно");
-        second.replace(second.indexOf("="),second.indexOf("+")+1, "равно");
-        third.replace(third.indexOf("="),third.indexOf("+")+1, "равно");
+        second.replace(second.indexOf("="),second.indexOf("=")+1, "равно");
+        third.replace(third.indexOf("="),third.indexOf("=")+1, "равно");
 
         System.out.println(first);
         System.out.println(second);
