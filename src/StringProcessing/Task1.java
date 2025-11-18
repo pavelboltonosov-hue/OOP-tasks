@@ -8,7 +8,7 @@ public class Task1 {
         char lastchar = str.charAt(str.length() - 1);
         System.out.println(lastchar);
 
-        boolean endsWith = str.endsWith("!");
+        boolean endsWith = str.endsWith("!!!");
         System.out.println(endsWith);
 
         boolean startsWith = str.startsWith("I like");
@@ -28,6 +28,8 @@ public class Task1 {
 
         String lowerCase = str.toLowerCase();
         System.out.println(lowerCase);
+
+        System.out.println(str.replace("a", "o"));
 
     }
 }
